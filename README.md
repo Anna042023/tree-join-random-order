@@ -47,7 +47,6 @@ Positive join tree + one safe negative atom (span ≤ 3)
 ```text
 tree-join-random-order/
 ├── README.md                         # 📖 Project description and usage
-├── .gitignore                        # 🧹 Local Python and editor artifacts
 ├── reference_impl/                   # 🧮 Small-instance reference algorithm
 │   ├── __init__.py
 │   └── random_order.py               # Signed tree join, rank access, no-replacement draws
