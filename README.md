@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-386FA4?style=flat-square)
 ![Query Processing](https://img.shields.io/badge/Area-Database%20Query%20Processing-679C92?style=flat-square)
-![Random Order](https://img.shields.io/badge/Output-Without%20Replacement-C18A59?style=flat-square)
 
 This repository accompanies **Completion-Weighted Random-Order Access for Tree-Shaped Conjunctive Queries with Short-Span Negation**. The paper studies duplicate-free random-order enumeration of full conjunctive-query answers when the positive joins form a tree and one safe negative atom closes a path of at most three edges.
 
@@ -113,7 +112,3 @@ The paper reports that streaming is preferable for very short prefixes in its in
 **The included Python implementation is a small-instance correctness reference.** It materializes the full answer set, groups answers by the signed core, decodes integer ranks, and enumerates without replacement. It is suitable for inspecting query semantics and checking small fixtures.
 
 The paper's nonmaterializing completion-weighted Heavy/Light index, native C++/SQLite benchmark drivers, original workload generators, and full graph inputs are **not present in the supplied source archive**. The included tests therefore do not reproduce the paper's preprocessing bounds, memory measurements, or runtime crossover results.
-
-## 🔗 Repository
-
-[tree-join-random-order](https://github.com/Anna042023/tree-join-random-order)
