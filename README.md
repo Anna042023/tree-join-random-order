@@ -105,9 +105,3 @@ The paper evaluates three questions: exact rank decoding, representation costs u
 The paper reports that streaming is preferable for very short prefixes in its induced-graph tests, while indexing becomes competitive at larger prefixes. The reported crossover points differ between the 200-vertex and 250-vertex inputs.
 
 `data/short_prefix_medians.csv` preserves the aggregate measurements for prefixes of 1, 100, and 1,000 answers on those two inputs. The underlying graph datasets and benchmark execution traces are not included here.
-
-## 🔬 Implementation Scope
-
-**The included Python implementation is a small-instance correctness reference.** It materializes the full answer set, groups answers by the signed core, decodes integer ranks, and enumerates without replacement. It is suitable for inspecting query semantics and checking small fixtures.
-
-The paper's nonmaterializing completion-weighted Heavy/Light index, native C++/SQLite benchmark drivers, original workload generators, and full graph inputs are **not present in the supplied source archive**. The included tests therefore do not reproduce the paper's preprocessing bounds, memory measurements, or runtime crossover results.
