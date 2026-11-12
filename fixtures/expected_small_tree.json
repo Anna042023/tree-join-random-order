@@ -1,0 +1,42 @@
+{
+  "status": "small_instance_reference_only",
+  "total": 4,
+  "variables": [
+    "u",
+    "v",
+    "w",
+    "x"
+  ],
+  "core_path": [
+    "u",
+    "v",
+    "w",
+    "x"
+  ],
+  "random_answers": [
+    [
+      "d",
+      "c",
+      "q",
+      "x2"
+    ],
+    [
+      "a",
+      "c",
+      "p",
+      "x1"
+    ],
+    [
+      "d",
+      "c",
+      "p",
+      "x2"
+    ],
+    [
+      "a",
+      "b",
+      "p",
+      "x1"
+    ]
+  ]
+}
